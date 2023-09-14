@@ -37,4 +37,6 @@ Aula7 - Continuando com Programação Orientada a Objetos na aula7 aprendi como 
 Aula8 - Conceitos avançados da linguagem Ruby parte 1   blocks, lambdas, namespaces e modules.
  
 Aula 9 - Aprendi sobre os conteúdos avançados, sobre utilizar expressões regulares, realizar funções matemáticas, trabalhar com data e hora, tratar chamadas de métodos que não existem, o que é a variável self e outros tipos de métodos ainda não vistos. O contéudo abordado foi: Regex, Math, Time, Method Missing, Self e Private and Protected.
+.
+.
 
