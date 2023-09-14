@@ -1,0 +1,24 @@
+---- Manipulando Hashes --- 
+
+irb(main):020:0> capitais = Hash.new
+=> {}
+irb(main):021:0> capitais = {Piaui: 'Teresina' , Ceará: 'Fortaleza', Maranhão: 'São L
+uis' , Bahia: 'Salvador'}
+=> {:Piaui=>"Teresina", :Ceará=>"Fortaleza", :Maranhão=>"São Luis", :Bahia=>"Salvador}  
+irb(main):022:0> capitais[:Paraíba] = "João Pessoa"
+=> "João Pessoa"
+irb(main):023:0> capitais
+=>
+{:Piaui=>"Teresina", :Ceará=>"Fortaleza", :Maranhão=>"São Luis", :Bahia=>"Salvador", :Paraíba=>"João Pessoa"}  
+irb(main):024:0> capitais[:Piaui]
+=> "Teresina"
+irb(main):025:0> capitais.keys
+=> [:Piaui, :Ceará, :Maranhão, :Bahia, :Paraíba]
+irb(main):026:0> capitais.values
+=> ["Teresina", "Fortaleza", "São Luis", "Salvador", "João Pessoa"]
+irb(main):027:0> capitais.delete(:Ceará)
+=> "Fortaleza"
+irb(main):028:0> capitais.size
+=> 4
+irb(main):029:0> capitais.empty?
+=> false
